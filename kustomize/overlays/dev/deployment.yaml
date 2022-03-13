@@ -7,7 +7,7 @@ spec:
   template:
     spec:
       containers:
-      - image: quay.io/wpernath/simple-quarkus:latest
+      - image: quay.io/dhanamjaya/do400-deploying-environments:latest
         imagePullPolicy: Always
         name: simple
         ports:
