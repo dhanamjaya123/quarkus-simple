@@ -6,16 +6,16 @@
 # $> ./mvnw clean package -DskipTests
 #
 # Then, build the image with:
-# $> docker build -f src/main/docker/Dockerfile.jvm -t quay.io/wpernath/simple-quarkus .
+# $> docker build -f src/main/docker/Dockerfile.jvm -t quay.io/dhanamjaya/do400-deploying-environments .
 #
 # Push all image changes to quay.io
 # $> docker push quay.io/wpernath/simple-quarkus -a
 #
 # Create a stage image (and push changes with docker push)
-# $> docker tag quay.io/wpernath/simple-quarkus:latest quay.io/wpernath/simple-quarkus:stage
+# $> docker tag quay.io/wpernath/simple-quarkus:latest quay.io/dhanamjaya/do400-deploying-environments:stage
 #
 # Test run the container once
-# $> docker run -i -p 8080:8080 quay.io/wpernath/simple-quarkus:latest
+# $> docker run -i -p 8080:8080 quay.io/dhanamjaya/do400-deploying-environments:latest
 # 
 # 
 #
