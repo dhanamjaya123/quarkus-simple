@@ -5,7 +5,7 @@ commonLabels:
 
 # replace the image tag of the container with latest
 images:
-- name: dhanamjaya/do400-deploying-environments
+- name: quay.io/dhanamjaya/do400-deploying-environments
   newTag: latest
 
 # apply a patch to replace the Host of the Route
