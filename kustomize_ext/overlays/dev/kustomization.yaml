@@ -11,7 +11,7 @@ patches:
       value: dev-simple
   target:
     kind: Route
-#apiVersion: kustomize.config.k8s.io/v1beta1
-#kind: Kustomization
+apiVersion: v1
+kind: Kustomization
 resources:
 - "../../base"
