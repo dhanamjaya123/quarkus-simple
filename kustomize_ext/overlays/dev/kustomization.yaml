@@ -1,22 +1,9 @@
 namePrefix: dev-
 commonLabels:
   variant: development
-
-
-# replace the image tag of the container with latest
 images:
 - name: quay.io/dhanamjaya/do400-deploying-environments
   newTag: latest
-
-# apply a patch to replace the Host of the Route
-#- patch: |-
-#    - op: replace
-#      path: /spec/host
-#      value: art-test.apps-crc.testing
-#  target:
-#    kind: Route
-# this patch needs to be done, because kustomize does not change 
-# the route target service name
 patches:
 - patch: |-
     - op: replace
@@ -27,4 +14,4 @@ patches:
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- ../../base
+- "../../base"
