@@ -6,9 +6,7 @@ type: application
 version: 0.0.10
 appVersion: "1.2.0"
 sources:
-    - https://github.com/wpernath/quarkus-simple
-    - https://www.opensourcerers.org/2021/04/26/automated-application-packaging-and-distribution-with-openshift-part-12/
-    - https://www.opensourcerers.org/2021/04/26/automated-application-packaging-and-distribution-with-openshift-part-22/
+    - https://github.com/dhanamjaya123/quarkus-simple
 maintainers:
-    - name: Wanja Pernath
-      email: wpernath@redhat.com
+    - name: Dhanamjaya Rao
+      email: dhanu8121@gmail.com
